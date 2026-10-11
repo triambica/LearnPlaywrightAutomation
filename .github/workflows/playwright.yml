@@ -22,10 +22,10 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test --project=chromium
       env:
-        APP_USERNAME:${{ secrets.APP_USERNAME }}
-        APP_PASSWORD:${{ secrets.APP_PASSWORD }}
-        SAUCE_USERNAME:${{ secrets.SAUCE_USERNAME }}
-        SAUCE_ACCESS_KEY:${{ secrets.SAUCE_ACCESS_KEY }}
+        APP_USERNAME: ${{ secrets.APP_USERNAME }}
+        APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
+        SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
+        SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
