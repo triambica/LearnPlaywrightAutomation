@@ -11,7 +11,7 @@ test('Verify login with valid credentials', async ({ page }) => {
   await page.locator('[data-test="password"]').fill(process.env.SAUCE_ACCESS_KEY);
   await page.locator('[data-test="login-button"]').click();
 
-  await expect(page.locator('[data-test="inventory-container"]')).toBeVisible(timeout = 20000);
+  await expect(page.locator('[data-test="inventory-container"]')).toBeVisible({timeout:20000});
 });
 
 test('Verify the user is unable to login when the account is locked', async ({ page }) => {
