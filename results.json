@@ -93,13 +93,13 @@
   },
   "suites": [
     {
-      "title": "admin\\addJobCategory.spec.js",
-      "file": "admin/addJobCategory.spec.js",
+      "title": "testAutomationPractice.spec.js",
+      "file": "testAutomationPractice.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Verify add job category functionality",
+          "title": "Verify the locator price of the phone by traversing from child to parent",
           "ok": true,
           "tags": [],
           "tests": [
@@ -111,25 +111,21 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 13180,
+                  "duration": 2850,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Username: Admin\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-11T17:22:30.026Z",
+                  "startTime": "2026-10-28T01:04:04.575Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\PlayWright_Course\\test-results\\admin-addJobCategory-Verify-add-job-category-functionality-chromium\\test-finished-1.png"
+                      "path": "C:\\PlayWright_Course\\test-results\\testAutomationPractice-Ver-0d342-ersing-from-child-to-parent-chromium\\test-finished-1.png"
                     }
                   ]
                 }
@@ -137,13 +133,13 @@
               "status": "expected"
             }
           ],
-          "id": "3577e98cefb0fa6e58a9-509eb3566ae39b30a3f3",
-          "file": "admin/addJobCategory.spec.js",
-          "line": 4,
+          "id": "7b0fb0235eedd3be75e8-339c1f7299e46505ce00",
+          "file": "testAutomationPractice.spec.js",
+          "line": 62,
           "column": 5
         },
         {
-          "title": "Verify add job category functionality",
+          "title": "Verify the locator price of the phone by traversing from child to parent",
           "ok": true,
           "tags": [],
           "tests": [
@@ -155,25 +151,21 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 14153,
+                  "duration": 822,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Username: Admin\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-11T17:22:44.285Z",
+                  "startTime": "2026-10-28T01:04:08.106Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\PlayWright_Course\\test-results\\admin-addJobCategory-Verify-add-job-category-functionality-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\PlayWright_Course\\test-results\\testAutomationPractice-Ver-0d342-ersing-from-child-to-parent-Microsoft-Edge\\test-finished-1.png"
                     }
                   ]
                 }
@@ -181,9 +173,9 @@
               "status": "expected"
             }
           ],
-          "id": "3577e98cefb0fa6e58a9-ce985af5c749bc38b113",
-          "file": "admin/addJobCategory.spec.js",
-          "line": 4,
+          "id": "7b0fb0235eedd3be75e8-67424cd691a626537cc8",
+          "file": "testAutomationPractice.spec.js",
+          "line": 62,
           "column": 5
         }
       ]
@@ -191,8 +183,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-11T17:22:28.948Z",
-    "duration": 29947.731000000145,
+    "startTime": "2026-10-28T01:04:03.968Z",
+    "duration": 6934.275000000023,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,
