@@ -93,13 +93,13 @@
   },
   "suites": [
     {
-      "title": "testAutomationPractice.spec.js",
-      "file": "testAutomationPractice.spec.js",
+      "title": "greenKartAssignment.spec.js",
+      "file": "greenKartAssignment.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Verify the locator price of the phone by traversing from child to parent",
+          "title": "Verify adding vegetables to cart",
           "ok": true,
           "tags": [],
           "tests": [
@@ -111,21 +111,31 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 8,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2850,
+                  "duration": 3464,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "[ \u001b[33m120\u001b[39m, \u001b[33m48\u001b[39m, \u001b[33m32\u001b[39m, \u001b[33m56\u001b[39m, \u001b[33m170\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "\u001b[33m426\u001b[39m\n"
+                    },
+                    {
+                      "text": "Prices are equal\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-28T01:04:04.575Z",
+                  "startTime": "2026-11-01T13:47:28.233Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\PlayWright_Course\\test-results\\testAutomationPractice-Ver-0d342-ersing-from-child-to-parent-chromium\\test-finished-1.png"
+                      "path": "C:\\PlayWright_Course\\test-results\\greenKartAssignment-Verify-adding-vegetables-to-cart-chromium\\test-finished-1.png"
                     }
                   ]
                 }
@@ -133,13 +143,13 @@
               "status": "expected"
             }
           ],
-          "id": "7b0fb0235eedd3be75e8-339c1f7299e46505ce00",
-          "file": "testAutomationPractice.spec.js",
-          "line": 62,
+          "id": "ff30fd59e2defc1ce5f1-20f2320ff4c9c5705320",
+          "file": "greenKartAssignment.spec.js",
+          "line": 4,
           "column": 5
         },
         {
-          "title": "Verify the locator price of the phone by traversing from child to parent",
+          "title": "Verify adding vegetables to cart",
           "ok": true,
           "tags": [],
           "tests": [
@@ -151,21 +161,31 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 9,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 822,
+                  "duration": 3781,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "[ \u001b[33m120\u001b[39m, \u001b[33m48\u001b[39m, \u001b[33m32\u001b[39m, \u001b[33m56\u001b[39m, \u001b[33m170\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "\u001b[33m426\u001b[39m\n"
+                    },
+                    {
+                      "text": "Prices are equal\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-28T01:04:08.106Z",
+                  "startTime": "2026-11-01T13:47:32.146Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\PlayWright_Course\\test-results\\testAutomationPractice-Ver-0d342-ersing-from-child-to-parent-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\PlayWright_Course\\test-results\\greenKartAssignment-Verify-adding-vegetables-to-cart-Microsoft-Edge\\test-finished-1.png"
                     }
                   ]
                 }
@@ -173,9 +193,9 @@
               "status": "expected"
             }
           ],
-          "id": "7b0fb0235eedd3be75e8-67424cd691a626537cc8",
-          "file": "testAutomationPractice.spec.js",
-          "line": 62,
+          "id": "ff30fd59e2defc1ce5f1-97b87b6e2eb0444ede30",
+          "file": "greenKartAssignment.spec.js",
+          "line": 4,
           "column": 5
         }
       ]
@@ -183,8 +203,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-28T01:04:03.968Z",
-    "duration": 6934.275000000023,
+    "startTime": "2026-11-01T13:47:27.558Z",
+    "duration": 8454.007999999914,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,

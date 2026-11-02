@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+import vegetableName from "../testdata/vegetableName.json";
 
 //Using basic xpath locators to locate the elements on the page and perform actions on them
 test('Verify login with valid credentials for test automation practice page', async ({ page }) => {
@@ -69,3 +69,24 @@ test('Verify the locator price of the phone by traversing from child to parent',
 })
 
 //Example 2
+test('Verify that add to cart button locator using the vegetable name in the page',async ({ page }) => {
+    await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/');
+    //Same can be used to find add to cart button specific to a vegetable name
+     await page.locator('//h4[text()="Cauliflower - 1 Kg"]/../div[3]/button').click();
+     //Using string literal
+     const vegName="Beetroot - 1 Kg"
+     await page.locator(`//h4[text()='${vegName}']/../div[3]/button`).click();
+     //Using data from json by importing json file containing vegetable names
+     await page.locator(`//h4[text()='${vegetableName.veg1}']/../div[3]/button`).click();
+     })
+
+//To check add to cart button for first element always, to check the count of vegetables in the page is 30
+
+test('Verify that add to cart button for first element always, to check the count of vegetables in the page is 30',async ({ page }) => {
+    await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/');
+    //assertion
+    await expect(page.locator('//button[text()="ADD TO CART"]')).toHaveCount(30);
+    await page.locator('(//button[text()="ADD TO CART"])[1]').click();
+
+
+})
